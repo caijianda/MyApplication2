@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent("abc");
-                intent.putExtra("ddd","dd电风扇防守打法ddd");
+                intent.putExtra("ddd","ddddd");
                 sendBroadcast(intent);
             }
         });
