@@ -14,7 +14,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Intent intent = new Intent();
-        intent.putExtra("ddd","ddddd");
+        intent.putExtra("ddd","ddddd电费水费");
         MyBrocast myBrocast = new MyBrocast();
         registerReceiver(myBrocast,new IntentFilter());
         sendBroadcast(intent);
