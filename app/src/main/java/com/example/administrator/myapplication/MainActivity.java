@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-//        unregisterReceiver(myBrocast);
+       unregisterReceiver(myBrocast);
 //        dfdf
     }
 }
